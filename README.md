@@ -1,4 +1,4 @@
-#<center>Depondfi'23 Challenge [NCVPRIPG-2023] **Winners** <center>Team-Detectron
+# <center>Depondfi'23 Challenge [NCVPRIPG-2023] **Winners** <center>Team-Detectron
 
 ![](fish_image.png)
 
