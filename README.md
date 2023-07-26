@@ -32,7 +32,7 @@ You can open the notebook in Colab (there is a button directly on said pages).
 | Defondi'23 YOLOv8n Testing  | Notebook for testing and analyzing inference time of various models we trained | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NkMJrqYZHPhVY-J5rMtKG8eZd-gBNW4o?usp=sharing) |
 | Defondi'23 YOLOv8n + SAHI Testing  | Notebook for inference calculated on SAHI after YOLOv8n | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tQBHygkFfRjxM5aAI83h8GjyM6sXmPwd?usp=sharing) |
 
-## 1) Folder Directory Structure {#1-Folder-Directory-Structure}
+## 1) Folder Directory Structure {# 1-Folder-Directory-Structure}
 
 ```
 
