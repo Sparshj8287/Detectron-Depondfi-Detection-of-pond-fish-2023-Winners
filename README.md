@@ -204,6 +204,11 @@ git clone https://github.com/Sparshj8287/Detectron-Depondfi-Detection-of-pond-fi
 ```python
 python path/to/demo_script.py --in_video_path path/to/video
 ```
+- Command to run the `Demo_script_sahi/demo_script.py`:
+
+```python
+python path/to/demo_script.py --in_video_path path/to/video
+```  
 
 ## 15) System Specifications  {#14-system-specifications}
 
