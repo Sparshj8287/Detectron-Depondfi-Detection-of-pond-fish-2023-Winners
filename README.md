@@ -22,7 +22,7 @@
 - [Usage](#14-usage)
 - [System Specifications](#15-system-specifications)
 
-## Depondfi'23 notebooks (#1-Depondfi-notebooks)
+## Depondfi'23 notebooks [#1-Depondfi-notebooks]
 
 You can open the notebook in Colab (there is a button directly on said pages).
 
