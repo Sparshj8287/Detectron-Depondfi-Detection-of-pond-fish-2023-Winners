@@ -1,5 +1,0 @@
-ultralytics
-opencv-python
-nvidia-tensorrt
-sahi 
-torch
