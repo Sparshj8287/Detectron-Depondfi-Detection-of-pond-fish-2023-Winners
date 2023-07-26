@@ -7,20 +7,20 @@
 ## Table of Contents
 
 - [Depondfi'23 notebooks](#1-Depondfi-notebooks)
-- [Folder Directory Structure](#1-Folder-Directory-Structure)
-- [Train code](#2-Train-code)
-- [Data](#3-Data)
-- [Demo_script](#4-Demo-script)
-- [Demo_script_sahi](#5-Demo-script-sahi)
-- [Inference_time](#6-inference-time)
-- [Inference_time_sahi](#7-inference-time-sahi)
-- [Metrics](#8-metrics)
-- [Model_weights](#9-model-weights)
-- [Summary](#10-summary)
-- [requirements.txt](#11-requirements.txt)
-- [README.md](#12-readme)
-- [Usage](#13-usage)
-- [System Specifications](#14-system-specifications)
+- [Folder Directory Structure](#2-Folder-Directory-Structure)
+- [Train code](#3-Train-code)
+- [Data](#4-Data)
+- [Demo_script](#5-Demo-script)
+- [Demo_script_sahi](#6-Demo-script-sahi)
+- [Inference_time](#7-inference-time)
+- [Inference_time_sahi](#8-inference-time-sahi)
+- [Metrics](#9-metrics)
+- [Model_weights](#10-model-weights)
+- [Summary](#11-summary)
+- [requirements.txt](#12-requirements.txt)
+- [README.md](#13-readme)
+- [Usage](#14-usage)
+- [System Specifications](#15-system-specifications)
 
 ## Depondfi'23 notebooks {#1-Depondfi-notebooks}
 
@@ -32,7 +32,7 @@ You can open the notebook in Colab (there is a button directly on said pages).
 | Defondi'23 YOLOv8n Testing  | Notebook for testing and analyzing inference time of various models we trained | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NkMJrqYZHPhVY-J5rMtKG8eZd-gBNW4o?usp=sharing) |
 | Defondi'23 YOLOv8n + SAHI Testing  | Notebook for inference calculated on SAHI after YOLOv8n | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tQBHygkFfRjxM5aAI83h8GjyM6sXmPwd?usp=sharing) |
 
-## 1) Folder Directory Structure {# 1-Folder-Directory-Structure}
+## 1) Folder Directory Structure {#2-Folder-Directory-Structure}
 
 ```
 
@@ -82,11 +82,11 @@ Detectron_DePondFi_NCVPRIPG2023
 
 ```
 
-## 2) Train code {#2-Train-code}
+## 2) Train code {#3-Train-code}
 
 This directory contains the training code for our project, specifically the `depondfi_yolov8n.ipynb` colab Notebook.
 
-## 3) Data {#3-Data}
+## 3) Data {#4-Data}
 
 This directory holds the readme of data required for training and validation our model. 
 
@@ -99,7 +99,7 @@ This directory holds the readme of data required for training and validation our
 
   - **Save the Split Data**: The notebook saves the file names of the training and validation images into separate text files. These files will be used in the subsequent steps of the project to ensure consistent splitting between different runs.
 
-## 4) Demo_script {#4-Demo-script}
+## 4) Demo_script {#5-Demo-script}
 
 This directory contains scripts for running a test video. It includes the following files and subdirectories:
 
@@ -117,7 +117,7 @@ This directory contains scripts for running a test video. It includes the follow
 
 - **test_images2video.py**: Python script for converting test images to a video.
 
-## 5) Demo_script_sahi {#5-Demo-script-sahi}
+## 5) Demo_script_sahi {#6-Demo-script-sahi}
 This directory contains scripts for running a test video. It includes the following files and subdirectories:
 
 - **demo_script.py**: The `demo_script.py` is a Python script that implements the YOLOv8n pipeline on a test video and generates an output video with object detections. This script showcases the capabilities of our model in real-world scenarios by detecting and tracking objects in a video.
@@ -135,25 +135,25 @@ This directory contains scripts for running a test video. It includes the follow
 - **test_images2video.py**: Python script for converting test images to a video.
 
 
-## 6) Inference_time {#6-inference-time}
+## 6) Inference_time {#7-inference-time}
 
 This directory includes files related to measuring the inference time of our model. It contains:
 
 - **Inference_time_yolov8n.txt**: Text file that records the inference time results.
 
 
-## 7) Inference_time_sahi {#7-inference-time-sahi}
+## 7) Inference_time_sahi {#8-inference-time-sahi}
 
 This directory includes files related to measuring the inference time of our model. It contains:
 
 - **Inference_time_yolov8n_sahi.txt**: Text file that records the inference time results.
 
-## 8) Metrics {#8-Metrics}
+## 8) Metrics {#9-Metrics}
 
 This directory contains images of metrics of our trained model **YOLOv8n**. 
 
 
-## 9) Model_weights {#9-model-weights}
+## 9) Model_weights {#10-model-weights}
 
 This directory stores the trained model weights. It contains the following files:
 
@@ -164,36 +164,36 @@ This directory stores the trained model weights. It contains the following files
 
 
 
-## 10) Summary {#10-summary}
+## 10) Summary {#11-summary}
 
 This directory contains summary files and results of our project. It includes:
 
 - **Depondfi_summary**: Summary file providing an approach and algorithm for our project.
 
-## 11) requirements.txt {#11-requirements.txt}
+## 11) requirements.txt {#12-requirements.txt}
 
 A file listing the required dependencies and packages for our project.
 
-## 12) README.md {#12-readme}
+## 12) README.md {#13-readme}
 
 A README file providing general information about our project and its directory structure.
 
-## 13) Usage {#13-usage}
+## 13) Usage {#14-usage}
 
 In order to implement and perform inference on **yolov8n based pipeline for fish detection** follow steps listed below:-
  
-### 13.1)Cloning Github Repository
+### 14.1)Cloning Github Repository
 - First clone the github repository using the following command:
 
 
 
-### 13.2) Install
+### 14.2) Install
 
 - Install dependencies (only once):
 
   `pip install -r requirements.txt`
 
-### 13.3) Test on your video
+### 14.3) Test on your video
 
 - Execute the script or run the code cells in the Jupyter Notebook. **Make sure to provide the correct path to the input video.** The annotated video and the bounding box coordinates will be saved in the directory which is displayed in the output.<br><br>
 
@@ -203,7 +203,7 @@ In order to implement and perform inference on **yolov8n based pipeline for fish
 python path/to/demo_script.py --in_video_path path/to/video
 ```
 
-## 14) System Specifications  {#14-system-specifications}
+## 15) System Specifications  {#14-system-specifications}
 
 Inference:
 - Intel Xeon CPU @2.20 GHz ( _2 cores_ )
