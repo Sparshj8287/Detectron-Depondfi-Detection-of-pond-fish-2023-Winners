@@ -6,21 +6,21 @@
 
 ## Table of Contents
 
-- [Depondfi'23 notebooks](#1-Depondfi-notebooks)
-- [Folder Directory Structure](#2-Folder-Directory-Structure)
-- [Train code](#3-Train-code)
-- [Data](#4-Data)
-- [Demo_script](#5-Demo-script)
-- [Demo_script_sahi](#6-Demo-script-sahi)
-- [Inference_time](#7-inference-time)
-- [Inference_time_sahi](#8-inference-time-sahi)
-- [Metrics](#9-metrics)
-- [Model_weights](#10-model-weights)
-- [Summary](#11-summary)
-- [requirements.txt](#12-requirements.txt)
-- [README.md](#13-readme)
-- [Usage](#14-usage)
-- [System Specifications](#15-system-specifications)
+- [Depondfi'23 notebooks](/#1-Depondfi-notebooks)
+- [Folder Directory Structure](/#2-Folder-Directory-Structure)
+- [Train code](/#3-Train-code)
+- [Data](/#4-Data)
+- [Demo_script](/#5-Demo-script)
+- [Demo_script_sahi](/#6-Demo-script-sahi)
+- [Inference_time](/#7-inference-time)
+- [Inference_time_sahi](/#8-inference-time-sahi)
+- [Metrics](/#9-metrics)
+- [Model_weights](/#10-model-weights)
+- [Summary](/#11-summary)
+- [requirements.txt](/#12-requirements.txt)
+- [README.md](/#13-readme)
+- [Usage](/#14-usage)
+- [System Specifications](/#15-system-specifications)
 
 ## Depondfi'23 notebooks {#1-Depondfi-notebooks}
 
