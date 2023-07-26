@@ -22,7 +22,7 @@
 - [Usage](#14-usage)
 - [System Specifications](#15-system-specifications)
 
-## Depondfi'23 notebooks {#1-Depondfi-notebooks}
+## Depondfi'23 notebooks {# 1-Depondfi-notebooks}
 
 You can open the notebook in Colab (there is a button directly on said pages).
 
@@ -184,7 +184,9 @@ In order to implement and perform inference on **yolov8n based pipeline for fish
  
 ### 14.1)Cloning Github Repository
 - First clone the github repository using the following command:
-
+```
+git clone https://github.com/Sparshj8287/Detectron-Depondfi-Detection-of-pond-fish-2023-Winners.git
+```
 
 
 ### 14.2) Install
